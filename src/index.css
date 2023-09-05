@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Playfair+Display+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Playfair+Display+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+@layer components {
+  .sub-heading {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  .main-gallery-img {
+    @apply h-96 lg:h-[430px] w-96 sm:w-[384px] md:w-[448px] lg:w-[546px] aspect-auto object-fill rounded-tl-xl rounded-bl-xl rounded-tr-md rounded-br-md skew-x-0 hover:skew-x-0 lg:skew-x-1 lg:hover:skew-x-2 hover:scale-105 hover:rounded-tr-xl hover:border-rose-600 hover:border-2 hover:mr-2 transition-all ease-in-out duration-150;
+  }
+
+  .span-navigation {
+    @apply absolute top-[45%] z-10 flex justify-center items-center gap-x-4 mt-2;
+  }
+
+  .btn-navigation {
+    @apply h-8 w-8 md:w-10 md:h-10 flex items-center justify-center bg-[#1a222e] rounded-full hover:bg-rose-600 hover:text-[#1a222e] transition-all ease-in-out duration-300;
+  }
+
+  .service-container {
+    @apply flex-1 w-full rounded-lg shadow-inner px-10 py-16 sm:w-[350px] border border-x-slate-800 border-y-slate-900 hover:bg-gradient-to-tr from-rose-600 to-[#813f8c] transition-all
+ease-in-out duration-300 opacity-100 hover:text-white hover:border-gray-400;
+  }
+
+  .service-icon {
+    @apply w-10 h-10 flex justify-center items-center rounded-full bg-rose-800;
+  }
+
+  .service-title {
+    @apply mt-4 font-martel text-2xl font-semibold leading-normal;
+  }
+
+  .service-paragraph {
+    @apply font-lora text-base leading-6 indent-1 break-words;
+  }
+
+  .footer-semi-headings {
+    @apply font-lora font-semibold text-xl text-rose-600 mb-6;
+  }
+}
