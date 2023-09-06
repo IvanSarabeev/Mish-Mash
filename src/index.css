@@ -27,7 +27,7 @@
   }
 
   .main-gallery-img {
-    @apply h-96 lg:h-[430px] w-96 sm:w-[384px] md:w-[448px] lg:w-[546px] aspect-auto object-fill rounded-tl-xl rounded-bl-xl rounded-tr-md rounded-br-md skew-x-0 hover:skew-x-0 lg:skew-x-1 lg:hover:skew-x-2 hover:scale-105 hover:rounded-tr-xl hover:border-rose-600 hover:border-2 hover:mr-2 transition-all ease-in-out duration-150;
+    @apply h-80 lg:h-[430px] w-80 sm:w-96 md:w-[448px] lg:w-[546px] aspect-auto object-fill rounded-tl-xl rounded-bl-xl rounded-tr-md rounded-br-md skew-x-0 hover:skew-x-0 lg:skew-x-1 lg:hover:skew-x-2 hover:scale-105 hover:rounded-tr-xl hover:border-rose-600 hover:border-2 hover:mr-2 transition-all ease-in-out duration-150;
   }
 
   .span-navigation {

@@ -68,7 +68,7 @@ const Footer = () => {
         </div>
         <hr className="mt-4" />
         <div className="flex items-center justify-center mt-4 mx-auto">
-          <div className="w-fit flex justify-cebter items-center">
+          <div className="w-fit flex justify-center items-center text-center">
             <img
               src={CopyrightSign}
               alt="copyright-sign"

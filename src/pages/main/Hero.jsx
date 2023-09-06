@@ -38,10 +38,11 @@ const Hero = () => {
             className="font-medium px-3 md:px-0 font-lora text-lg md:text-xl leading-7 md:leading-8 break-words antialiased"
           >
             <p className="max-w-2xl min-w-fit indent-0 md:indent-2">
-              Our street food business that specializes in cooking
-              traditional&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Our street food business that specializes in cooking traditional
+            </p>
+            <p>
               <strong className="text-rose-600 underline underline-offset-4">
-                <b className="text-[20px]">B</b>ulgarian
+                <b className="text-[20px]">B</b>ulgarian{" "}
               </strong>
               dishes, as well as gourmet burgers and fully loaded hotdogs.
             </p>

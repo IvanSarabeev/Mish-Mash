@@ -13,7 +13,7 @@ const Menu = () => {
         <div className="absolute z-50 top-0 left-0 w-full overflow-hidden leading-none bg-[#ac3363] fill-[#1a222e]">
           <SvgIcon />
         </div>
-        <h3 className="sub-heading z-10 font-semibold font-martel text-[#0d1117]">
+        <h3 className="sub-heading z-50 font-semibold font-martel text-[#0d1117]">
           Menu
         </h3>
         <div className="gap-4 gap-y-6 grid col-span-1 sm:grid-cols-2 md:grid-cols-3 items-center justify-center px-4 mx-auto mt-10 md:my-10 text-[#0d1117]">

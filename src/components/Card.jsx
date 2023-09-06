@@ -25,7 +25,7 @@ const Card = ({ item, index }) => {
           alt={item.alt}
         />
         <article className="p-5 flex flex-col">
-          <h5 className="font-martel font-semibold text-2xl text-left text-gray-400 mb-2">
+          <h5 className="font-martel font-semibold text-2xl text-center md:text-left text-gray-400 mb-2">
             {item.title}
           </h5>
           <p className="mb-3 font-lora font-normal text-justify leading-7 md:leading-6 max-w-sm text-gray-300 indent-1">
